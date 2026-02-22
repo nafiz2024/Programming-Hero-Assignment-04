@@ -100,11 +100,29 @@
     <!-- Tab Section End -->
 
     <!-- Job List Section Start-->
-     <section>
+    <section>
       <div id="jobList" class="space-x-4"></div>
-     </section>
+    </section>
     <!-- Job List Section End-->
 
+    <!-- Empty Section Start -->
+    <section>
+      <div
+        id="emptyMessage"
+        class="container mx-auto flex flex-col justify-center items-center h-[400px] bg-white rounded-lg hidden"
+      >
+          <img class="mt-5" src="./images/jobs.png" alt="" />
+          <h1 class="text-2xl font-semibold leading-7 text-[#002C5C] mb-1">
+            No jobs available
+          </h1>
+          <p class="leading-[22px] text-[#64748B]">
+            Check back soon for new job opportunities
+          </p>
+      </div>
+    </section>
+    <!-- Empty Section End -->
+
+    <!-- Script-->
     <script src="./JS/script.js"></script>
   </body>
 </html>
