@@ -77,19 +77,19 @@
         </div>
         <div class="flex gap-2 mb-4">
           <button
-            class="w-20 h-8 flex justify-center items-center bg-[#3B82F6] rounded text-[12px] font-semibold text-white"
+            class="tabBtn w-20 h-8 flex justify-center items-center bg-[#3B82F6] rounded text-[12px] font-semibold text-white"
             data-tab="all"
           >
             All
           </button>
           <button
-            class="w-20 h-8 flex justify-center items-center bg-[#ffffff] rounded text-[12px] font-semibold text-[#64748B]"
+            class="tabBtn w-20 h-8 flex justify-center items-center bg-[#ffffff] rounded text-[12px] font-semibold text-[#64748B]"
             data-tab="interview"
           >
             Interview
           </button>
           <button
-            class="w-20 h-8 flex justify-center items-center bg-[#ffffff] rounded text-[12px] font-semibold text-[#64748B]"
+            class="tabBtn w-20 h-8 flex justify-center items-center bg-[#ffffff] rounded text-[12px] font-semibold text-[#64748B]"
             data-tab="rejected"
           >
             Rejected
@@ -101,7 +101,7 @@
 
     <!-- Job List Section Start-->
     <section>
-      <div id="jobList" class="space-x-4"></div>
+      <div id="jobContainer" class="container mx-auto space-y-4"></div>
     </section>
     <!-- Job List Section End-->
 
@@ -111,13 +111,13 @@
         id="emptyMessage"
         class="container mx-auto flex flex-col justify-center items-center h-[400px] bg-white rounded-lg hidden"
       >
-          <img class="mt-5" src="./images/jobs.png" alt="" />
-          <h1 class="text-2xl font-semibold leading-7 text-[#002C5C] mb-1">
-            No jobs available
-          </h1>
-          <p class="leading-[22px] text-[#64748B]">
-            Check back soon for new job opportunities
-          </p>
+        <img class="mt-5" src="./images/jobs.png" alt="" />
+        <h1 class="text-2xl font-semibold leading-7 text-[#002C5C] mb-1">
+          No jobs available
+        </h1>
+        <p class="leading-[22px] text-[#64748B]">
+          Check back soon for new job opportunities
+        </p>
       </div>
     </section>
     <!-- Empty Section End -->
