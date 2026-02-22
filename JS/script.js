@@ -111,12 +111,9 @@ function updateDashboard() {
 function renderJobs() {
     jobContainer.innerHTML = "";
 
-    let filtered = currentTab === "all"
-        ? jobs
-        : jobs.filter(job => job.status === currentTab);
+    let filtered = currentTab === "all" ? jobs : jobs.filter(job => job.status === currentTab);
 
-    document.getElementById("tabCount").innerText =
-        filtered.length + " jobs";
+    document.getElementById("tabCount").innerText = filtered.length + " jobs";
 
     if (filtered.length === 0) {
         emptyMessage.classList.remove("hidden");
