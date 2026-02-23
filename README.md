@@ -48,10 +48,9 @@ Job Application Tracker is a simple web application to track and manage job appl
 2. How do you create and insert a new element into the DOM?
 
   Ans:-
-    const div = document.createElement("div");
-
-    div.textContent = "Hello World";
     
+    const div = document.createElement("div");
+    div.textContent = "Hello World";
     document.body.appendChild(div);
 
 
