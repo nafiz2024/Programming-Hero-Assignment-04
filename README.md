@@ -38,8 +38,11 @@ Job Application Tracker is a simple web application to track and manage job appl
   Ans:-
 
 -> getElementById() → Selects a single element by its unique id.
+
 -> getElementsByClassName() → Returns all elements with a specific class (live HTMLCollection).
+
 -> querySelector() → Returns the first element that matches a CSS selector.
+
 -> querySelectorAll() → Returns all elements matching a CSS selector (NodeList).
 
 
@@ -67,7 +70,9 @@ Event Delegation allows a parent element to handle events for multiple child ele
 
 Benefits:
 -> Fewer event listeners → better performance
+
 -> Works with dynamically added elements
+
 -> Simplifies code maintenance
 
     document.getElementById("list").addEventListener("click", (event) => {
@@ -82,4 +87,5 @@ Benefits:
 Ans:-
 
 -> preventDefault() → Stops the browser’s default behavior (like form submission).
+
 -> stopPropagation() → Stops the event from propagating to parent elements.
