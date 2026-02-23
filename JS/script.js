@@ -131,7 +131,7 @@ function renderJobs() {
         class="absolute top-4 right-4 text-gray-400 hover:text-red-500 px-2.5 py-1 rounded-[100%] border border-gray-400 hover:border-red-500">
         🗑
       </button>
-
+    
       <h3 class="text-lg font-semibold text-[#002C5C]">${job.companyName}</h3>
       <p class="text-[#64748B] mb-5">${job.position}</p>
 
