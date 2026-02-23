@@ -128,7 +128,7 @@ function renderJobs() {
 
         div.innerHTML = `
       <button onclick="deleteJob(${job.id})"
-        class="absolute top-4 right-4 text-gray-400 hover:text-red-500">
+        class="absolute top-4 right-4 text-gray-400 hover:text-red-500 px-2.5 py-1 rounded-[100%] border border-gray-400 hover:border-red-500">
         🗑
       </button>
 
